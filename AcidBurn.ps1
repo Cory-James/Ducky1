@@ -592,7 +592,7 @@ $LAST_PASSwarn =  Get-Days_Set
 
 $EMAILwarn = Get-email 
 
-$OUTRO =  "My crime is that of curiosity.... 	and yea curiosity killed the cat....     but satisfaction brought him back.... later $fullName"
+$OUTRO =  "My crime is that of curiosity.... 	and yea curiosity killed the cat.... $fullName"
 
 # echo statement used to track progress while debugging
 echo "Speak Variables set"
@@ -688,7 +688,7 @@ $s.Speak($OUTRO)
 
 # this snippet will leave a message on your targets desktop 
 
-$message = "`nMy crime is that of curiosity `nand yea curiosity killed the cat `nbut satisfaction brought him back"
+$message = "`nMy crime is that of curiosity `nand yea curiosity killed the cat."
 
 Add-Content $home\Desktop\WithLove.txt $message
 ###########################################################################################################
